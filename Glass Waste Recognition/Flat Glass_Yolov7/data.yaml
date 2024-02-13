@@ -1,0 +1,12 @@
+train: /content/yolov7/train/images
+val: /content/yolov7/valid/images
+
+nc: 2
+names: ['Accepted', 'Not_Accepted']
+
+roboflow:
+  workspace: school-rsfmz
+  project: flat_balance
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/school-rsfmz/flat_balance/dataset/2
